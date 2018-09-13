@@ -23,6 +23,7 @@ import io.chirp.connect.models.ConnectState;
 public class MainActivity extends WearableActivity {
 
     //Check git
+    //asdasd
     private ChirpConnect chirpConnect;
     private static final int RESULT_REQUEST_RECORD_AUDIO = 1;
 
