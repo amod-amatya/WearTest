@@ -1,1 +1,1 @@
-Smartwatch app to test chirp sdk
+Chirp sdk test in wear os (smartwatch)
