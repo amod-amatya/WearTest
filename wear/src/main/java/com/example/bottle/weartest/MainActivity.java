@@ -21,9 +21,7 @@ import io.chirp.connect.models.ChirpError;
 import io.chirp.connect.models.ConnectState;
 
 public class MainActivity extends WearableActivity {
-
-    //Check git
-    //asdasd
+    
     private ChirpConnect chirpConnect;
     private static final int RESULT_REQUEST_RECORD_AUDIO = 1;
 
@@ -37,7 +35,6 @@ public class MainActivity extends WearableActivity {
     Button startStopSendingBtn;
 
     Boolean startStopSdkBtnPressed = false;
-
     TextView tvVersion;
 
     @Override
@@ -175,15 +172,6 @@ public class MainActivity extends WearableActivity {
             /**
              * onSystemVolumeChanged is called when the system volume is changed.
              */
-//            Snackbar snackbar = Snackbar.make(parentLayout, "System volume has been changed to: " + newVolume, Snackbar.LENGTH_LONG);
-//            snackbar.setAction("CLOSE", new View.OnClickListener() {
-//                @Override
-//                public void onClick(View view) {
-//
-//                }
-//            })
-//                    .setActionTextColor(getResources().getColor(android.R.color.holo_red_light ))
-//                    .show();
             Log.v("connectdemoapp", "System volume has been changed, notify user to increase the volume when sending data");
         }
 
